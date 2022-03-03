@@ -1,9 +1,11 @@
 
-public class SeguroDeVida {
+public class SeguroDeVida implements Tributavel{
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	
+	@Override
+	public double getValorImposto() {
+	
+		return 0;
 	}
 
 }
